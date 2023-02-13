@@ -60,7 +60,7 @@ public class Util {
             ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
                     .applySettings(configuration.getProperties()).build();
             sessionFactory = configuration.buildSessionFactory(serviceRegistry);
-            System.out.println("Подлючение к БД произошло");
+
 
 
         } catch (Exception e) {
